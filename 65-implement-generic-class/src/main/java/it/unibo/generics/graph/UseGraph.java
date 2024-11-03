@@ -19,10 +19,10 @@ public final class UseGraph {
      *            ignored
      */
     public static void main(final String... args) {
-        /*
-         * Test your graph implementation(s) by calling testGraph
-         */
-        testGraph(null);
+        
+        Graph<String> g = new GraphImpl<>();
+
+        testGraph(g);
     }
 
     private static void testGraph(final Graph<String> graph) {
